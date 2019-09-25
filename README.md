@@ -21,7 +21,7 @@ or
 
 or
 
-    curl -L http://bit.ly/dodocker | bash -s -- $(pwd)
+    curl -L http://bit.ly/dodocker-linux | bash -s -- $(pwd)
 
 $(pwd) may be replaced with the desired path where you would like your new depend-on-docker project created.
 
@@ -40,7 +40,7 @@ or
 
 or
 
-    curl -L http://bit.ly/dodockerw > create.bat 
+    curl -L http://bit.ly/dodocker-windows > create.bat 
     create.bat "%cd%"
 
 If you are behind an Internet proxy, set environment variables http_proxyHost and http_proxyPort prior to running the create script. Example: set http_proxyHost=<proxy_host>
