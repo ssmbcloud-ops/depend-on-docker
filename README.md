@@ -1,5 +1,5 @@
 
-<img alt="Depend on Docker Logo" src="https://github.com/bhgedigital/depend-on-docker/raw/master/DoLogo.png" align="right" width="25%"/>
+<img alt="Depend on Docker Logo" src="https://github.com/iankoulski/depend-on-docker/raw/master/DoLogo.png" align="right" width="25%"/>
 
 # depend-on-docker
 Depend on Docker {DoD} is an open source project that makes any software easy to build, ship, and run!
@@ -17,7 +17,7 @@ This project works on both Linux and Windows. It strives to drastically simplify
 
 or
 
-    docker container run --rm -it -v $(pwd):/wd bhgedigital/svn sh -c "svn checkout https://github.com/bhgedigital/depend-on-docker/trunk/linux/ /wd && rm -rf /wd/.svn"
+    docker container run --rm -it -v $(pwd):/wd iankoulski/svn sh -c "svn checkout https://github.com/iankoulski/depend-on-docker/trunk/linux/ /wd && rm -rf /wd/.svn"
 
 or
 
@@ -28,7 +28,7 @@ $(pwd) may be replaced with the desired path where you would like your new depen
 If you are behind an Internet proxy, set environment variables http_proxyHost and http_proxyPort prior to running the create script. Example: export http_proxyHost=<proxy_host>
 
 **`Demo:`** Create Linux or MacOS container
-<img alt="dod-linux-create.gif" title="Create Depend on Docker project on Linux" src="https://github.com/bhgedigital/depend-on-docker/raw/master/docs/img/dod-linux-create.gif" width="100%" align="center">
+<img alt="dod-linux-create.gif" title="Create Depend on Docker project on Linux" src="https://github.com/iankoulski/depend-on-docker/raw/master/docs/img/dod-linux-create.gif" width="100%" align="center">
     
 ## Windows
 
@@ -36,7 +36,7 @@ If you are behind an Internet proxy, set environment variables http_proxyHost an
 
 or
 
-    docker container run --rm -it -v "%cd%":"c:\wd" bhgedigital/win-svn cmd /C "cd c:\wd && svn checkout https://github.com/bhgedigital/depend-on-docker/trunk/windows/"
+    docker container run --rm -it -v "%cd%":"c:\wd" iankoulski/win-svn cmd /C "cd c:\wd && svn checkout https://github.com/iankoulski/depend-on-docker/trunk/windows/"
 
 or
 
@@ -46,7 +46,7 @@ or
 If you are behind an Internet proxy, set environment variables http_proxyHost and http_proxyPort prior to running the create script. Example: set http_proxyHost=<proxy_host>
 
 **`Demo:`** Create Windows container 
-<img alt="dod-windows-create.gif" title="Create Depend on Docker project on Windows" src="https://github.com/bhgedigital/depend-on-docker/raw/master/docs/img/dod-windows-create.gif" width="100%" align="center">
+<img alt="dod-windows-create.gif" title="Create Depend on Docker project on Windows" src="https://github.com/iankoulski/depend-on-docker/raw/master/docs/img/dod-windows-create.gif" width="100%" align="center">
 
 # Customize your depend-on-docker project
 Your depend-on-docker project is created with default settings that work out of the box and creates a Docker image called "myapp". There are several settings that you can customize to make this project fit your needs.
@@ -140,7 +140,7 @@ DockerCon 2018 Slides: [http://bit.ly/dodslides](http://bit.ly/dodslides)
 
 Blog: https://blog.docker.com/2018/08/depend-docker-philosophy-baker-hughes-ge-company/
 
-Microsoft Azure AI 2018 Conference Slides: [http://bit.ly/azureaislides](https://github.com/bhgedigital/depend-on-docker/raw/master/docs/DependOnDocker-MicrosoftAzureAiConf-LasVegas-20181105.pdf)
+Microsoft Azure AI 2018 Conference Slides: [http://bit.ly/azureaislides](https://github.com/iankoulski/depend-on-docker/raw/master/docs/DependOnDocker-MicrosoftAzureAiConf-LasVegas-20181105.pdf)
 
 Google Next 2019 Analytics Orchestration at Scale Video: [http://bit.ly/analytics-orchestration](http://bit.ly/analytics-orchestration)
 
@@ -152,8 +152,8 @@ Ref # | Project Name | Description | Link
 --- | --- | --- | ---
 1 | `semtk` | Drag and drop SPARQL queries and data ingestion for Virtuoso | [https://github.com/ge-semtk/semtk](https://github.com/ge-semtk/semtk)
 2 | `tree` | You do not need to install the Linux tree command, just run it | [https://github.com/iankoulski/tree](https://github.com/iankoulski/tree)
-3 | `envsubst` | Run the envsubst command in a Linux container | [https://github.com/bhgedigital/envsubst](https://github.com/bhgedigital/envsubst)
-4 | `enigma` | Encrypt and decrypt content using the enigma container | [https://github.com/bhgedigital/enigma](https://github.com/bhgedigital/enigma)
-5 | `gcp-gpu-monitor` | Monitor usage of your GPUs in Google Cloud | [https://github.com/bhgedigital/gcp-gpu-monitor](https://github.com/bhgedigital/gcp-gpu-monitor)
-6 | `romario` | REST API for kick-starting Kubeflow pipelines | [https://github.com/bhgedigital/romario](https://github.com/bhgedigital/romario)
+3 | `envsubst` | Run the envsubst command in a Linux container | [https://github.com/iankoulski/envsubst](https://github.com/iankoulski/envsubst)
+4 | `enigma` | Encrypt and decrypt content using the enigma container | [https://github.com/iankoulski/enigma](https://github.com/iankoulski/enigma)
+5 | `gcp-gpu-monitor` | Monitor usage of your GPUs in Google Cloud | [https://github.com/iankoulski/gcp-gpu-monitor](https://github.com/iankoulski/gcp-gpu-monitor)
+6 | `romario` | REST API for kick-starting Kubeflow pipelines | [https://github.com/fabiononato/romario](https://github.com/fabiononato/romario)
 7 | `face-recognition` | An example of Depend on Docker for AI applications | [https://github.com/iankoulski/depend-on-docker-ai](https://github.com/iankoulski/depend-on-docker-ai) 
