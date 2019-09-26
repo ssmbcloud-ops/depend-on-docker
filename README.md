@@ -86,7 +86,7 @@ For ease of use, all Docker commands required to use this project have been embe
 
 Builds the Docker container image and tags it using the registry and version tag settingsspecified in your environment file
 
-## Ship (push and pull)
+## Ship (push or pull)
 
     Linux: ./push.sh or ./pull.sh ; Windows: push.bat or pull.bat
 
